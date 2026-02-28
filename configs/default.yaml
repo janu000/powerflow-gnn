@@ -1,0 +1,12 @@
+training:
+  epochs: 10
+  learning_rate: 0.001
+  batch_size: 1 # For Graph models without strict batching implemented
+
+model:
+  hidden_dims: [64, 64]
+  out_dim: 2
+  num_layers: 2
+
+data:
+  num_samples: 100
